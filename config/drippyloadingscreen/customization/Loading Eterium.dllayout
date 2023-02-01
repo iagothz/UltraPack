@@ -1,0 +1,73 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = true
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = #1c1c1c
+}
+
+customization {
+  visible = false
+  x = 44
+  action = editforgememoryinfo
+  y = 55
+}
+
+customization {
+  visible = false
+  action = editforgestatustext
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  visible = false
+  x = 1
+  action = editprogressbar
+  y = -28
+  barcolor = #f90027
+}
+
+customization {
+  orientation = bottom-centered
+  x = 0
+  width = 424
+  actionid = 23f3ec6a-de64-43f5-935d-a76fa4c86fdc1654600812667
+  y = -30
+  action = addcustomprogressbar
+  height = 10
+  direction = right
+  barcolor = #f90027
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  x = 0
+  textcolor = #ffffff
+  action = addtext
+  actionid = 2d0e7de3-506f-45cf-a52a-11bec14346851654600932932
+  y = -15
+  scale = 1.0
+  alignment = left
+  value = carregando...
+}
+
+customization {
+  path = config/fancymenu/ressources/title6.png
+  orientation = mid-centered
+  x = 0
+  width = 200
+  action = addtexture
+  actionid = 88744370-747f-4989-a8be-3ab9dd54baa71654610631292
+  y = 0
+  height = 100
+}
+
